@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鹽水國中輔導組 - 114學年度家庭教育成果</title>
+  <meta name="description" content="臺南市立鹽水國民中學輔導組 114學年度家庭教育實施成果專區。">
+  <meta name="author" content="臺南市立鹽水國中 輔導組">
+
+  <!-- Google Fonts: Noto Sans TC -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- 主樣式表 -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Google Sites 頂部導覽列 (Top Navigation Bar) -->
+  <nav class="google-sites-nav">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <span class="nav-icon">🏫</span>
+        <span class="nav-title">鹽水國中輔導組</span>
+      </div>
+      <ul class="nav-menu">
+        <li class="active"><a href="#home">114學年度家庭教育成果</a></li>
+        <li><a href="#toc">主題快速導覽</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Google Sites 主 Banner 頁首 (Main Header Banner) -->
+  <header class="google-sites-header" id="home">
+    <div class="header-overlay"></div>
+    <div class="header-content">
+      <h1 class="page-title">114學年度家庭教育成果</h1>
+      <p class="page-subtitle">臺南市立鹽水國民中學 輔導組</p>
+    </div>
+  </header>
+
+  <!-- 主頁面容器：左側目錄 + 右側內容 (Main Two-Column Layout) -->
+  <div class="sites-wrapper">
+
+    <!-- 左側目錄側邊欄 (Sidebar Navigation Table of Contents) -->
+    <aside class="sites-sidebar" id="toc">
+      <div class="sidebar-header">
+        <h3>📌 主題導覽選單</h3>
+      </div>
+      <nav class="sidebar-nav">
+        <ul id="sidebarMenuList">
+          <!-- 由 JavaScript 動態生成 38 項主題選單鏈結 -->
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- 右側主要內容區 (Main Content Section) -->
+    <main class="sites-main" id="sitesMainContainer">
+      <!-- 由 JavaScript 動態生成 38 項 Google Sites 風格主題區塊 -->
+    </main>
+
+  </div>
+
+  <!-- Lightbox 大圖預覽彈窗 (Image Lightbox Modal) -->
+  <div class="modal-backdrop" id="lightboxModal">
+    <div class="modal-content" style="max-width: 1000px; background: #000000; color: #ffffff;">
+      <div class="modal-header" style="background: rgba(15, 23, 42, 0.9); border-bottom: 1px solid rgba(255,255,255,0.1);">
+        <h3 id="lightboxModalTitle">成果相片放大檢視</h3>
+        <button class="modal-close-btn" id="btnLightboxClose">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 1rem; background: #0f172a; display: flex; flex-direction: column; align-items: center;">
+        <div class="lightbox-container" style="width: 100%;">
+          <div class="lightbox-image-wrapper" style="width: 100%;">
+            <img id="lightboxImg" src="" alt="放大成果照片" />
+            <button class="lightbox-nav-btn prev" id="btnLightboxPrev">❮</button>
+            <button class="lightbox-nav-btn next" id="btnLightboxNext">❯</button>
+          </div>
+          <div class="lightbox-caption" id="lightboxCaption" style="color: #93c5fd; font-size: 1rem; margin-top: 0.5rem;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 頁尾 (Footer) -->
+  <footer class="google-sites-footer">
+    <p><strong>臺南市立鹽水國民中學 輔導組</strong> ｜ 114學年度家庭教育成果網</p>
+    <p style="margin-top: 0.4rem; font-size: 0.85rem; color: #a1a1aa;">
+      校址：708006 臺南市鹽水區三福路28號 ｜ 電話：06-6521045
+    </p>
+  </footer>
+
+  <!-- 載入腳本 -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
